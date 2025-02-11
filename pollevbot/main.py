@@ -9,7 +9,7 @@ def main():
 
     # If you're using a non-uw PollEv account,
     # add the argument "login_type='pollev'"
-    with PollBot(user, password, host) as bot:
+    with PollBot(user, password, host, login_type='pollev') as bot:
         bot.run()
 
 
