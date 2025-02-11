@@ -2,9 +2,10 @@ from pollevbot import PollBot
 
 
 def main():
-    user = 'My Username'
+    user = 'madhurya.amirapu@stvincenthospital.com'
     password = 'My Password'
-    host = 'PollEverywhere URL Extension e.g. "uwpsych"'
+    host = 'sasankkalipatnapu152'
+    login_type = 'pollev'
 
     # If you're using a non-uw PollEv account,
     # add the argument "login_type='pollev'"
